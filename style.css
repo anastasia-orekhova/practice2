@@ -1,0 +1,465 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('fonts/HelveticaNeue.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-BoldItalic';
+    src: url('fonts/HelveticaNeue-BoldItalic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueItalic';
+    src: url('fonts/HelveticaNeueItalic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Medium';
+    src: url('fonts/HelveticaNeue-Medium.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Pacifico-Regular';
+    src: url('fonts/Pacifico-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('/fonts/Raleway-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('/fonts/Raleway-SemiBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+body {
+  padding: 0;
+  margin: auto;
+  max-width: 1600px;
+  max-height: 1968px;
+  background-image: url(img/display2.jpg);
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  color: #fff;
+  border-top: 10px solid #2ecc71;
+  background-image: url(img/img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phone {
+    position: relative;
+    left: 64px;
+    bottom: 444px;
+}
+
+.center {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header_left {
+    display: inline-block;
+    max-width: 44%;
+    padding: 0;
+    vertical-align: middle; }
+
+header p {
+    font-family: 'Pacifico-Regular';
+    color:  #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-align: left;
+    padding-top: 169px;
+}
+
+header h1 {
+    font-family: 'HelveticaNeue';
+    color:  #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+}
+
+#dot {
+   color: #2ecc71;
+}
+
+.icons {
+    display: inline-block;
+    display: flex;
+    margin: 0px 15px 0 0;
+}
+
+.icons_back {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #000000;
+    opacity: 0.6;
+}
+.icons_back:hover {
+    background-color: springgreen;
+}
+.icons_back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #000000;
+    opacity: 0.6;
+}
+.android_position {
+    margin: 14px 15px 14px 16px;
+}
+
+.apple_position {
+    margin: 12px 17px 15px 17px;
+}
+
+.window_position {
+    margin: 14px 1px 14px 0px;
+}
+
+.hand {
+    display: inline-block;
+    position: inherit;
+    float: right;
+    padding: 0;
+    vertical-align: middle;
+    width: 439px;
+    height: 507px;
+    margin-top: 95px;
+}
+
+.light {
+    position: relative;
+    width: 70px;
+    height: 207px;
+    background-color: #fff69f;
+    opacity: 0.46;
+}
+
+.screen {
+    position:relative;
+    width: 165px;
+    height: 247px;
+}
+
+.list {
+    list-style: none;
+    margin-top: 3.5%;
+    margin-bottom: 4%
+}
+
+.items {
+    display: inline-block;
+    max-width: 30%;
+    text-align: center;
+    margin: center;
+}
+
+.gem_container {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-color: springgreen;
+    border-radius: 50px;
+}
+
+.icon_item {
+    margin-top:22%;
+ margin-left:22%;
+    width: 53px;
+    height: 53px;
+    opacity: 0.6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.gem_name {
+    width: 219px;
+    height: 17px;
+    color: #222222;
+    font-family: "Raleway-SemiBold";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align:inherit;
+    margin-left:27%;
+}
+
+.gem_descryptor {
+    height: 42px;
+    color: #848484;
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.notifier {
+    height: 427px;
+    background-color: #e3e3e3;
+}
+
+.notifier_content {
+   display: inline-block;
+   vertical-align: top;
+   width: 534px;
+   height: 91px;
+   margin-top: 2%;
+   margin-right: 4%;
+   margin-bottom: 8.5%;
+   margin-left: 13%;
+   font-size: 0px;
+}
+
+.get_notified {
+    height: 22px;
+    color: #222222;
+    font-family: "Raleway-SemiBold";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.lorem {
+    height: 91px;
+    color: #848484;
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.notifier_input {
+    display: inline-block;
+    vertical-align: middle;
+    width: 309px;
+    height: 56px;
+    border: 1px solid #c8c8c8;
+    padding: 0 7%;
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: "HelveticaNeue";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.notifier_button {
+    width: 141px;
+    height: 57px;
+    background-color: #2ecc71;
+    padding: 0 7%;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+    font-family: "Raleway-SemiBold";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.notifier_video {
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    max-width: 32%;
+    margin-top: 3.5%;
+    margin-right: 13%;
+    margin-left: 4%;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.quote {
+    max-width: 55%;
+    margin: 0 auto;
+    padding: 2% 0%;
+    color: #848484;
+    font-family: "HelveticaNeueItalic";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.person-name {
+    font-family: "Raleway-Bold";
+    font-size: 18px;
+}
+
+.peoples {
+    list-style: none;
+}
+
+.company_person {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.m1 {
+    background-image: url("img/face1.png");
+}
+.m2 {
+    background-image: url("img/face2.png");
+}
+.m3 {
+    background-image: url("img/face3.png");
+}
+.m4 {
+    background-image: url("img/face4.png");
+}
+.m5 {
+    background-image: url("img/face5.png");
+}
+.m6 {
+    background-image: url("img/face6.png");
+}
+.m7 {
+    background-image: url("img/face7.png");
+}
+.m8 {
+    background-image: url("img/face8.png");
+}
+.m9 {
+    background-image: url("img/face9.png");
+}
+.m10 {
+    background-image: url("img/face10.png");
+}
+.m11 {
+    background-image: url("img/face11.png");
+}
+.m12 {
+    background-image: url("img/face12.png");
+}
+.m13 {
+    background-image: url("img/face13.png");
+}
+.f1 {
+    background-image: url("img/face14.png");
+}
+.f2 {
+    background-image: url("img/face15.png");
+}
+.f3 {
+    background-image: url("img/face16.png");
+}
+.f4 {
+    background-image: url("img/face17.png");
+}
+.f5 {
+    background-image: url("img/face18.png");
+}
+.f6 {
+    background-image: url("img/face19.png");
+}
+
+.networks {
+   margin-bottom: 5%;
+   text-align: center;
+}
+
+.hello {
+    height: 24px;
+    color: #000000;
+    font-family: "Raleway-SemiBold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text {
+    color: #848484;
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.icons_social {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.network_back {
+    margin: 6px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+
+.icons_social .network_back {
+    background-color: #544f4f;
+}
+
+.icons_social .network_back:hover {
+  background-color: springgreen;
+}
+
+.footer {
+    max-width: 1600px;
+    max-height: 130px;
+    padding-top: 60px;
+    padding-bottom: 54px;
+    text-align: center;
+    background-color: #e3e3e3;
+}
+
+.footer_link {
+    padding-right: 1.2%;
+    padding-left: 1.2%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "HelveticaNeue";
+     width: 544px;
+    color: #848484;
+    font-weight: 400;
+    line-height: 26px;
+}
